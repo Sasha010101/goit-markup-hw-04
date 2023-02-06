@@ -148,13 +148,10 @@ margin-left: auto;
 background-color: #2E2F42;
 background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
 url(../images-hw-4/hero-image-bgn/people-office\ 1.png);
-
 background-repeat: no-repeat;
 background-position: center;
-
-
-
 }
+
 
 .hero-title {
 margin: auto;
@@ -163,9 +160,6 @@ width: 500px;
 font-size: 56px;
 line-height: calc(60 / 56);
 color: #FFFFFF;
-
-
-
 }
 
 .hero-button {
@@ -184,53 +178,39 @@ color: #FFFFFF;
     margin-top: 48px;
     display: block;
     padding: 16px 32px;
-    
-    
-    
-    
     }
+    
     .hero-button:hover,
     .hero-button:focus {
      background-color: #404BBF;
-    
     }
 
     .feature-section{
     padding: 120px 0;
      }
+
     .feature {
-    
-
-
-  
 }
-.feature-container{
-    
-
-}
+.feature-container{}
 
 
 .feature-list {
 display: flex;
-gap: 24px;
-
-
-
-
+gap: 24px; 
 }
 
-.feature-item {
-   
+.feature-item { 
     
-    
-    
-    
-
-
-    
+}
+.feature-icon{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
     
     
 }
+
 
 .strategy-title {
 font-weight: 500;
