@@ -9,6 +9,7 @@
     /* BG colors */
      --primary-bg-cl: #FFFFFF;
      --accent-bg-cl:#4D5AE5;
+     --icon-clr-cl:#8E8F99;
      /* Others */
      
 }
@@ -142,7 +143,7 @@ color: var(--primary-txt-cl);
 .hero {
 text-align: center;
 padding: 188px 0;
-width: 1440;
+max-width: 1440px;
 margin-right: auto;
 margin-left: auto;
 background-color: #2E2F42;
@@ -500,6 +501,9 @@ padding-bottom: 120px;
 
 
 .customers-item{
+    
+}
+.customers-link{ 
     display: flex;
     width: 168px;
     height: 88px;
@@ -507,19 +511,19 @@ padding-bottom: 120px;
     border-radius: 4px;
     align-items: center;
     justify-content: center;
-}
-.customers-item:hover,
-.customers-item:focus{
-    border-color: #404BBF;
+    color: var(--icon-clr-cl);
+    
 }
 .customers-icon{
-    
-    fill: #8E8F99
+
+fill: currentColor;}
+
+.customers-link:hover,
+.customers-link:focus{
+    border-color: #404BBF;
+    color: #404BBF;
 }
-.customers-icon:hover,
-.customers-icon:focus{
-    fill: #404BBF;
-}
+
 
 .footer-container {
     display: flex;
