@@ -582,7 +582,8 @@ margin: 0px;
     margin: 0px;
     margin-bottom: 16px;
     letter-spacing: 0.02em;
-   width: 500px;
+   font-size: 16px;
+   line-height: calc(24 / 16);
         
     
 }
